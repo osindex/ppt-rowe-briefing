@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>从在场主义到价值主义 · 目录简报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;900&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress"><span id="bar"></span></div>
+  <div class="deck" id="deck"></div>
+  <div class="hit left" id="prevHit"></div>
+  <div class="hit right" id="nextHit"></div>
+  <div class="footer-ui">
+    <span id="footLeft">目录 · 目标 / 痛点 / 方案 / 实施</span>
+    <span class="hint">← → 翻页　↓ ↑ 注释</span>
+    <span id="counter">1 / 22</span>
+  </div>
+  <aside class="notes" id="notes">
+    <div class="notes-handle"></div>
+    <h4>本页注释 · ↓ 打开　↑ 收起</h4>
+    <p id="notesBody"></p>
+  </aside>
+  <aside class="help" id="help">
+    <h4>快捷键</h4>
+    <p><kbd>→</kbd>下一页　<kbd>←</kbd>上一页</p>
+    <p><kbd>↓</kbd>显示注释　<kbd>↑</kbd>收起注释</p>
+    <p><kbd>O</kbd>总览　<kbd>F</kbd>全屏　<kbd>?</kbd>本说明</p>
+    <p>左右滑动翻页，上下滑动开关注释</p>
+  </aside>
+  <aside class="overview" id="overview"></aside>
+  <script src="slides-1.js"></script>
+  <script src="slides-2.js"></script>
+  <script src="slides-3.js"></script>
+  <script src="deck-app.js"></script>
+</body>
+</html>
